@@ -8,18 +8,19 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 
-class MainActivity : AppCompatActivity() {
+class IMCActivity : AppCompatActivity() {
 
     private var txtHeight: TextView? = null
     private var txtWeight: TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        Intent(this, LoginActivity::class.java)
+
+        setContentView(R.layout.activity_imc)
 
         val btnCalculate = findViewById<Button>(R.id.btnCalculate)
         val btnClear = findViewById<Button>(R.id.btnClear)
-        val btnLogin = findViewById<Button>(R.id.btnLogin)
 
         this.txtHeight = findViewById(R.id.txtHeight)
         this.txtWeight = findViewById(R.id.txtWeight)
@@ -46,11 +47,6 @@ class MainActivity : AppCompatActivity() {
         btnClear.setOnClickListener {
             txtHeight?.text = ""
             txtWeight?.text = ""
-        }
-
-        btnLogin.setOnClickListener {
-            val login = Intent(this, LoginActivity::class.java)
-            startActivity(login)
         }
     }
 

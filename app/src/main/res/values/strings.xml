@@ -14,4 +14,9 @@
     <string name="blank">%d</string>
     <string name="img_description">%d</string>
     <string name="healthtrack">Healthtrack</string>
+    <string name="login">Login</string>
+    <string name="oi_usu_rio">Oi Usuário</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="fa_a_login">Faça Login</string>
 </resources>
