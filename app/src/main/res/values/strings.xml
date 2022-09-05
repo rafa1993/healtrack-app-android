@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cálculo de IMC</string>
+    <string name="app_logo">Cálculo de IMC Logo</string>
+
+    <string name="info_height">Altura</string>
+    <string name="info_weight">Peso</string>
+
+    <string name="autofill_height">ex: 1.70</string>
+    <string name="autofill_weight">ex: 70.5</string>
+
+    <string name="btn_calculate">Calcular</string>
+    <string name="btn_clear">Limpar</string>
+
+    <string name="blank">%d</string>
+    <string name="img_description">%d</string>
+    <string name="healthtrack">Healthtrack</string>
+</resources>
